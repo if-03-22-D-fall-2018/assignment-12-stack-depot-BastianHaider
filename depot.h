@@ -1,5 +1,4 @@
-/** @file depot.h
-*/
+
 #ifndef SPL_DEPOT_H
 #define SPL_DEPOT_H
 
@@ -18,4 +17,4 @@ void push_depot(Depot depot, Product *product);
 int get_count(Depot depot);
 Product* pop_depot(Depot depot);
 
-#endif 
+#endif
